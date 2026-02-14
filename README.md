@@ -54,18 +54,21 @@ For a quick demo, watch the demo video at this [Google Drive link](https://drive
 
 You can easily customize Ricardo:
 1.  Go to **Tools** -> **Ricardo Settings**.
-2.  **Model**: Defaults to `gpt-5-mini` (fast & cheap). You can also choose `gpt-4o`, `o3-mini`, or type any other model. In my opinion, **`gpt-5-mini`** OR **`gpt-4o`** is the best for this application as it is fast and actually gives only the high-yield things instead of the **overthinking/overspending tokens/AI sycophancy** that GPT5 or 5.2 annoyingly does. 
+2.  **Model**: Defaults to `gpt-5-mini` (fast & cheap). You can also choose `gpt-4o`, `o3-mini`, or type any other model.
+    * In my opinion, **`gpt-5-mini`** OR **`gpt-4o`** is the best for this application as it is fast and actually gives only the high-yield things instead of the **overthinking/overspending tokens/AI sycophancy** that GPT5 or 5.2 annoyingly does. 
     *   **Pro Tip**: The dropdown is **editable**! You can type *any* valid OpenAI model name (e.g., `gpt-6` when it comes out) and it will work immediately.
-3.  **System Prompt**: Edit Ricardo's personality and instructions.
-4.  **Max Images**: Set how many images to send to the AI (default: 2).
-5.  **Timeout**: usage limits.
+4.  **System Prompt**: Edit Ricardo's personality and instructions.
+5.  **Max Images**: Set how many images to send to the AI (default: 2).
+6.  **Timeout**: usage limits.
 
 
 ## Requirements
 
 -   Anki 2.1.50+
--   An active OpenAI API Key. A paid account required for API access, but from my experience, your usage is so small that the API key should work for free without adding money. However, even if you do, the cost is literally so small and the extra utility you get is worth it.
--   You can get **complimentary (free) credits** from OpenAI by sharing your outputs/inputs with OpenAI in the "Data Controls" settings in the OpenAI API page. This gives you up to 2.5 million free tokens for the cheaper models and 250,000 tokens for some of the most recent models (like GPT5.2, 5.3).
+-   An active OpenAI API Key.
+     - A paid account required for API access, but from my experience, your usage is so small that the cost is super low (definitely a full month of usage is much less than the 20$/month ChatGPT subscription), and the extra utility you get is worth it.
+-   You can get **complimentary (free) credits** from OpenAI by sharing your outputs/inputs with OpenAI in the "Data Controls" settings in the OpenAI API page.
+     - This gives you up to 2.5 million free tokens for the cheaper models and 250,000 tokens for some of the most recent models (like GPT5.2, 5.3).
      - Don't worry - since you are only asking your questions about USMLE questions, you're not violating HIPAA :) - you'll only be sharing your questions! 
 
 ## Future Features
