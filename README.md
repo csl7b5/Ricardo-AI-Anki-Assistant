@@ -19,10 +19,10 @@ Coded in 2 hours because I was bored and was tired of switching between Anki and
 
 ### From GitHub (Manual)
 1.  **Download** the latest release (`.zip` file) from the GitHub Releases page.
-2.  **Unzip** the file. You should see a folder named `anki_chatgpt_sidebar` (or similar).
+2.  **Unzip** the file. You should see a folder named `ricardo_assistant`.
 3.  Open **Anki**.
 4.  Go to **Tools** -> **Add-ons** -> **View Files**. This opens your Anki `addons21` folder.
-5.  **Drag and Drop** the `anki_chatgpt_sidebar` folder into the `addons21` folder.
+5.  **Drag and Drop** the `ricardo_assistant` folder into the `addons21` folder.
 6.  **Restart Anki**.
 
 ## Setup
@@ -48,7 +48,8 @@ Coded in 2 hours because I was bored and was tired of switching between Anki and
 
 You can easily customize Ricardo:
 1.  Go to **Tools** -> **Ricardo Settings**.
-2.  **Model**: Choose between `gpt-4o`, `gpt-4o-mini`, etc.
+2.  **Model**: Defaults to `gpt-5-mini` (fast & cheap). You can also choose `gpt-4o`, `o3-mini`, or type any other model. In my opinion, **`gpt-5-mini`** OR **`gpt-4o`** is the best for this application as it is fast and actually gives only the high-yield things instead of the **overthinking/overspending tokens/AI sycophancy** that GPT5 or 5.2 annoyingly does. 
+    *   **Pro Tip**: The dropdown is **editable**! You can type *any* valid OpenAI model name (e.g., `gpt-6` when it comes out) and it will work immediately.
 3.  **System Prompt**: Edit Ricardo's personality and instructions.
 4.  **Max Images**: Set how many images to send to the AI (default: 2).
 5.  **Timeout**: usage limits.

@@ -346,8 +346,16 @@ class SettingsDialog(QDialog):
         # 2. Model
         layout.addWidget(QLabel("<b>Model:</b>"))
         self.model_combo = QComboBox()
-        self.model_combo.addItems(["gpt-4o", "gpt-4o-mini", "gpt-4-turbo", "gpt-3.5-turbo"])
-        current_model = self._cfg.get("model", "gpt-4o-mini")
+        self.model_combo.setEditable(True)  # Allow user to type any future model name
+        self.model_combo.addItems([
+            "gpt-5-mini", 
+            "gpt-4o-mini", 
+            "o3-mini", 
+            "gpt-5.2", 
+            "gpt-5", 
+            "gpt-4o"
+        ])
+        current_model = self._cfg.get("model", "gpt-5-mini") # Default to efficient modern model
         self.model_combo.setCurrentText(current_model)
         layout.addWidget(self.model_combo)
 

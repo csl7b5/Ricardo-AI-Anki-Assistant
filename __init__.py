@@ -44,7 +44,7 @@ def _add_menu_items() -> None:
     action = QAction("ChatGPT Sidebar (Ask about current card)", mw)
     action.setShortcut(QKeySequence("Ctrl+Shift+G"))
     action.triggered.connect(toggle_sidebar)
-    mw.form.menuView.addAction(action)
+    menu.addAction(action)
 
     # Add Settings to Tools Menu (User requested explicit Tools menu item)
     tools_menu = getattr(mw.form, "menuTools", None)
