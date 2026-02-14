@@ -6,6 +6,8 @@ Coded in 2 hours because I was bored and was tired of switching between Anki and
 
 I made this project not only to help integrate AI into my studying, but also to focus more on the user-interface side of AI assistants integrated into medical education, including pretty UIs, intelligent prompting, integration of important context for AI assistants, stress-testing tools that I built, and user-centered thinking during installation, usage, and edge cases. 
 
+You can use this tool **for free** even with integration into OpenAI API, as they give free credits. Scroll to the bottom for instructions on how to get free credits for easy integration. 
+
 For a quick demo, watch the demo video at this [Google Drive link](https://drive.google.com/file/d/13qsXiuJhkQzKuLwRj8gjjy4I6HB-lIR4/view?usp=sharing).
 
 ## Features
@@ -62,7 +64,15 @@ You can easily customize Ricardo:
 ## Requirements
 
 -   Anki 2.1.50+
--   An active OpenAI API Key. A paid account required for API access, but from my experience, your usage is so small that the API key should work for free without adding money. However, even if you do, the cost is literally so small and the extra utility you get is worth it. 
+-   An active OpenAI API Key. A paid account required for API access, but from my experience, your usage is so small that the API key should work for free without adding money. However, even if you do, the cost is literally so small and the extra utility you get is worth it.
+-   You can get **complimentary (free) credits** from OpenAI by sharing your outputs/inputs with OpenAI in the "Data Controls" settings in the OpenAI API page. This gives you up to 2.5 million free tokens for the cheaper models and 250,000 tokens for some of the most recent models (like GPT5.2, 5.3). 
+
+## Future Features
+Some features I'm working on in the pipeline:
+-   Automatic Anki card generator from concepts that you can highlight from GPT's responses.
+-   Integration of UWorld content review.
+-   USMLE question generator with full formatting and answer choices based on cards and concepts.
+-   Fine-tuned SLMs for faster performance (Sporo proprietary).
 
 ## License
 
