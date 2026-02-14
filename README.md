@@ -4,6 +4,8 @@
 
 Coded in 2 hours because I was bored and was tired of switching between Anki and ChatGPT or OpenEvidence. Unfortunately, I don't think OpenEvidence has an accessible API, so I had to use Sporo models initially, then generalized it to OpenAI models.
 
+For a quick demo, watch the demo video at this [Google Drive link](https://drive.google.com/file/d/13qsXiuJhkQzKuLwRj8gjjy4I6HB-lIR4/view?usp=sharing).
+
 ## Features
 
 -   **Context-Aware**: Ricardo knows which card you're looking at. It sees the question, answer, and fields, so you can ask "Explain this card" or "Why is the answer X?" directly.
