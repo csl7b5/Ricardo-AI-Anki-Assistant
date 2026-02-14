@@ -43,7 +43,9 @@ For a quick demo, watch the demo video at this [Google Drive link](https://drive
 4.  That's it! Ricardo is ready to help.
 
 ## Usage
-<img width="1728" height="1081" alt="Screenshot 2026-02-14 at 04 06 41" src="https://github.com/user-attachments/assets/3bdd995f-f40a-480a-97a2-198b6a357c6b" />
+
+<img width="1296" height="811" alt="Screenshot 2026-02-14 at 04 06 41" src="https://github.com/user-attachments/assets/3bdd995f-f40a-480a-97a2-198b6a357c6b" />
+<figcaption>Example usage to learn more about Class 1C antiarrhythmics.</figcaption>
 
 -   **Ask a Question**: Type your question in the box at the bottom (e.g., "Mnemonic for this?", "Simplify this explanation").
 -   **Context**: Ricardo automatically reads the content of the currently displayed card.
