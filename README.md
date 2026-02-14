@@ -1,4 +1,4 @@
-# Ricardo: The Advanced Anki AI Assistant
+# Ricardo: Anki AI Assistant
 
 **Ricardo** is a powerful sidebar add-on for Anki that acts as your personal AI tutor. It uses OpenAI's GPT models prompted with context and intelligent instructions to answer questions about your current flashcard, explain complex topics, and help you study more effectively—all without leaving Anki.
 
