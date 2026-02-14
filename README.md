@@ -4,6 +4,8 @@
 
 Coded in 2 hours because I was bored and was tired of switching between Anki and ChatGPT or OpenEvidence. Unfortunately, I don't think OpenEvidence has an accessible API, so I had to use Sporo models initially, then generalized it to OpenAI models.
 
+I made this project not only to help integrate AI into my studying, but also to focus more on the user-interface side of AI assistants integrated into medical education, including pretty UIs, intelligent prompting, integration of important context for AI assistants, stress-testing tools that I built, and user-centered thinking during installation, usage, and edge cases. 
+
 For a quick demo, watch the demo video at this [Google Drive link](https://drive.google.com/file/d/13qsXiuJhkQzKuLwRj8gjjy4I6HB-lIR4/view?usp=sharing).
 
 ## Features
