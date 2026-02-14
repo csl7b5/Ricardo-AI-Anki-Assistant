@@ -67,7 +67,7 @@ You can easily customize Ricardo:
 -   Anki 2.1.50+
 -   An active OpenAI API Key.
      - A paid account required for API access, but from my experience, your usage is so small that the cost is super low (definitely a full month of usage is much less than the 20$/month ChatGPT subscription), and the extra utility you get is worth it.
--   You can get **complimentary (free) credits** from OpenAI by sharing your outputs/inputs with OpenAI in the "Data Controls" settings in the OpenAI API page.
+-   You can get **complimentary (free) credits** from OpenAI by sharing your outputs/inputs. Go to **"Data Controls"** -> **"Sharing"**, or click the direct link [here](https://platform.openai.com/settings/organization/data-controls/sharing).
      - This gives you up to 2.5 million free tokens for the cheaper models and 250,000 tokens for some of the most recent models (like GPT5.2, 5.3).
      - Don't worry - since you are only asking your questions about USMLE questions, you're not violating HIPAA :) - you'll only be sharing your questions! 
 
