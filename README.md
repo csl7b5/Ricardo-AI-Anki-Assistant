@@ -1,18 +1,3 @@
-<style>
-    figure {
-  /* Optional: centers the entire figure block on the page */
-  display: block; 
-  margin-left: auto;
-  margin-right: auto;
-  width: fit-content; /* Optional: ensures figure only takes up the width of its content (image) */
-}
-
-figcaption {
-  /* Centers the text within the figcaption element */
-  text-align: center;
-}
-</style>
-
 # Ricardo: Anki AI Assistant
 
 **Ricardo** is a sidebar add-on for Anki that acts as your personal AI tutor. It uses OpenAI's GPT models prompted with context and intelligent instructions to answer questions about your current flashcard, explain complex topics, and help you study more effectively—all without leaving Anki.
@@ -58,11 +43,10 @@ For a quick demo, watch the demo video at this [Google Drive link](https://drive
 4.  That's it! Ricardo is ready to help.
 
 ## Usage
-<figure>
-    <img width="864" height="540" alt="Screenshot 2026-02-14 at 04 06 41" src="https://github.com/user-attachments/assets/3bdd995f-f40a-480a-97a2-198b6a357c6b"/>
-    <figcaption>Example usage to learn more about Class 1C antiarrhythmics.</figcaption>
-</figure>
 
+<figure align="center">
+  <img width="864" height="540" alt="Screenshot 2026-02-14 at 04 06 41" src="https://github.com/user-attachments/assets/3bdd995f-f40a-480a-97a2-198b6a357c6b"/><br>
+</figure>
 
 -   **Ask a Question**: Type your question in the box at the bottom (e.g., "Mnemonic for this?", "Simplify this explanation").
 -   **Context**: Ricardo automatically reads the content of the currently displayed card.
