@@ -1,0 +1,11 @@
+# User-specific Anki config (Contains API Key!)
+meta.json
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS junk
+.DS_Store
+.tldr

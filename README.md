@@ -1,0 +1,65 @@
+# Ricardo: The Advanced Anki AI Assistant
+
+**Ricardo** is a powerful sidebar add-on for Anki that acts as your personal AI tutor. It uses OpenAI's GPT models prompted with context and intelligent instructions to answer questions about your current flashcard, explain complex topics, and help you study more effectively—all without leaving Anki.
+
+Coded in 2 hours because I was bored and was tired of switching between Anki and ChatGPT or OpenEvidence. Unfortunately, I don't think OpenEvidence has an accessible API, so I had to use Sporo models initially, then generalized it to OpenAI models.
+
+## Features
+
+-   **Context-Aware**: Ricardo knows which card you're looking at. It sees the question, answer, and fields, so you can ask "Explain this card" or "Why is the answer X?" directly.
+-   **High-Yield & Exam-Oriented**: Ricardo is specifically trained to provide concise, exam-relevant information for the USMLE and other medical exams.
+-   **Trusted Sources**: Ricardo includes relevant information from trusted sources such as Bootcamp, Pixorize, Medbullets, Boards and Beyond, Sketchy, or any research articles.
+-   **Question Generation**: Ricardo can generate practice questions for you to test your knowledge.
+-   **Rich Markdown & Tables**: Responses are rendered with beautiful Markdown formatting, including robust support for tables, bold text, lists, and code blocks.
+-   **Anki-Native Look**: Designed to feel like a part of Anki (or a modern chat app like Claude), with a clean, serif-font aesthetic and distinct speech bubbles.
+-   **Image Support**: If your card has images, Ricardo can see them too! (Requires a multimodal model like `gpt-4o`).
+-   **Streamlined Setup**: Built-in onboarding makes setting up your API key a breeze.
+
+## Installation
+
+### From GitHub (Manual)
+1.  **Download** the latest release (`.zip` file) from the GitHub Releases page.
+2.  **Unzip** the file. You should see a folder named `anki_chatgpt_sidebar` (or similar).
+3.  Open **Anki**.
+4.  Go to **Tools** -> **Add-ons** -> **View Files**. This opens your Anki `addons21` folder.
+5.  **Drag and Drop** the `anki_chatgpt_sidebar` folder into the `addons21` folder.
+6.  **Restart Anki**.
+
+## Setup
+
+1.  Open Anki and start reviewing a deck or open the Browser.
+2.  Open the **Ricardo Sidebar** (usually visible by default, or accessible via `Tools` -> `Ricardo Sidebar` or `Ctrl+Shift+G`).
+3.  **API Key Prompt**: If this is your first time, Ricardo will ask for your OpenAI API Key.
+    -   Please make an OpenAI account at [platform.openai.com](https://platform.openai.com/account/api-keys). You can get a free API key there. 
+    -   Click the link in the dialog to generate a key at [platform.openai.com](https://platform.openai.com/account/api-keys).
+    -   Paste the key starting with `sk-...` into the box and click **Save**.
+    -   If you get an error, please make sure you are using the correct API key. Usually, your usage is actually pretty low and you should be able to use it for free. 
+4.  That's it! Ricardo is ready to help.
+
+## Usage
+
+-   **Ask a Question**: Type your question in the box at the bottom (e.g., "Mnemonic for this?", "Simplify this explanation").
+-   **Context**: Ricardo automatically reads the content of the currently displayed card.
+-   **Shortcuts**:
+    -   `Enter`: Send message.
+    -   `Ctrl+Shift+G`: Toggle Sidebar.
+
+## Configuration
+
+You can easily customize Ricardo:
+1.  Go to **Tools** -> **Ricardo Settings**.
+2.  **Model**: Choose between `gpt-4o`, `gpt-4o-mini`, etc.
+3.  **System Prompt**: Edit Ricardo's personality and instructions.
+4.  **Max Images**: Set how many images to send to the AI (default: 2).
+5.  **Timeout**: usage limits.
+
+
+## Requirements
+
+-   Anki 2.1.50+
+-   An active OpenAI API Key. A paid account required for API access, but from my experience, your usage is so small that the API key should work for free without adding money. However, even if you do, the cost is literally so small and the extra utility you get is worth it. 
+
+## License
+
+MIT License. Feel free to modify and share!
+Made with love by **Chanseo Lee**, MS3 @ Yale.
