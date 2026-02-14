@@ -1,3 +1,18 @@
+<style>
+    figure {
+  /* Optional: centers the entire figure block on the page */
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content; /* Optional: ensures figure only takes up the width of its content (image) */
+}
+
+figcaption {
+  /* Centers the text within the figcaption element */
+  text-align: center;
+}
+</style>
+
 # Ricardo: Anki AI Assistant
 
 **Ricardo** is a sidebar add-on for Anki that acts as your personal AI tutor. It uses OpenAI's GPT models prompted with context and intelligent instructions to answer questions about your current flashcard, explain complex topics, and help you study more effectively—all without leaving Anki.
