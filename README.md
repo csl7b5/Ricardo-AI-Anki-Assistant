@@ -67,4 +67,4 @@ You can easily customize Ricardo:
 ## License
 
 MIT License. Feel free to modify and share!
-Made with love by **Chanseo Lee**, MS3 @ Yale.
+Made with love by **Chanseo Lee** @ Yale, Sporo Health <3
