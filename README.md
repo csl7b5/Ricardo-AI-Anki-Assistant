@@ -81,6 +81,7 @@ Some features I'm working on in the pipeline:
 -   Integration of UWorld content review.
 -   USMLE question generator with full formatting and answer choices based on cards and concepts.
 -   Fine-tuned SLMs for faster performance (Sporo proprietary).
+-   Agentic learning: intelligent card look-up, auto-filtered deck creator for extra practices, scheduled reviews.
 
 ## License
 
