@@ -82,6 +82,7 @@ Some features I'm working on in the pipeline:
 -   USMLE question generator with full formatting and answer choices based on cards and concepts.
 -   Fine-tuned SLMs for faster performance (Sporo proprietary).
 -   Agentic learning: intelligent card look-up, auto-filtered deck creator for extra practices, scheduled reviews.
+
 I'm mostly modeling these future features off of the Anking deck - let me know if you think there is something I'm missing that could be super useful!
 
 ## License
