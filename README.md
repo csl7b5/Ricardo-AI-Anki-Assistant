@@ -79,6 +79,8 @@ You can easily customize Ricardo:
 Some features I'm working on in the pipeline:
 -   Automatic Anki card generator from concepts that you can highlight from GPT's responses.
 -   Integration of UWorld content review.
+       -  Auto-identifying UWorld Questions and searching for cards with those QIDs or Topics
+       -  Auto-generating or rebuilding filtered decks with incorrect, marked, or all cards in each completed 40-question block.
 -   USMLE question generator with full formatting and answer choices based on cards and concepts.
 -   Fine-tuned SLMs for faster performance (Sporo proprietary).
 -   Agentic learning: intelligent card look-up, auto-filtered deck creator for extra practices, scheduled reviews.
