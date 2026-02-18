@@ -2,7 +2,7 @@
 
 **Ricardo** is a sidebar add-on for Anki that acts as your personal AI tutor. It uses OpenAI's GPT models prompted with context and intelligent instructions to answer questions about your current flashcard, explain complex topics, and help you study more effectively—all without leaving Anki.
 
-Coded in 2 hours because I was bored and was tired of switching between Anki and ChatGPT or OpenEvidence. Unfortunately, I don't think OpenEvidence has an accessible API, so I had to use Sporo models initially, then generalized it to OpenAI models.
+I made this because I was bored and was tired of switching between Anki, UWorld, and ChatGPT or OpenEvidence. Unfortunately, OpenEvidence does not have an accessible API, so I used Sporo models initially, then generalized access to OpenAI models to promote ease-of-use for all students.
 
 I made this project not only to help integrate AI into my studying, but also to focus more on the user-interface side of AI assistants integrated into medical education, including pretty UIs, intelligent prompting, integration of important context for AI assistants, stress-testing tools that I built, and user-centered thinking during installation, usage, and edge cases. 
 
