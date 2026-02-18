@@ -85,6 +85,7 @@ Some features I'm working on in the pipeline:
        -  I might just do all of this by creating an agent workflow, so I'll probably use Langchain just to make my life easier. If Anki can't support agents for some reason, this might be 10x harder .-.
 -   USMLE question generator with full formatting and answer choices based on cards and concepts.
 -   Fine-tuned SLMs for faster performance (Sporo proprietary).
+       -  Since Thinking Machines has been so generous in providing Tinker to academics, if I can get access to Tinker, maybe I'll try fine-tuning the open-sourced GPT-oss models. It's a bit overkill for something as dumb as an Anki AI assistant, but it might be a fun project ¯\_(ツ)_/¯
 
 I'm mostly modeling these future features off of the Anking deck - let me know if you think there is something I'm missing that could be super useful!
 
