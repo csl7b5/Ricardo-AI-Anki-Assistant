@@ -2,9 +2,9 @@
 
 **Ricardo** is a sidebar add-on for Anki that acts as your personal AI tutor. It uses OpenAI's GPT models prompted with context and intelligent instructions to answer questions about your current flashcard, explain complex topics, and help you study more effectively—all without leaving Anki.
 
-I made this because I was bored and was tired of switching between Anki, UWorld, and ChatGPT or OpenEvidence. Unfortunately, OpenEvidence does not have an accessible API, so I used Sporo models initially, then generalized access to OpenAI models to promote ease-of-use for all students. 
+I made this on a whim because 1. I was bored and 2. I was tired of switching between Anki, UWorld, and ChatGPT or OpenEvidence. Unfortunately, OpenEvidence does not have an accessible API, so I used Sporo models initially, then generalized access to OpenAI models to promote ease-of-use for all students. 
 
-This tool not only helped integrate AI into my studying, but also allowed me to explore more on the user-interface side of AI assistants integrated into medical education. Some things I've experimented with are pretty UIs, intelligent prompting, user-centered context integration for AI assistants, stress-testing AI assistants, and thinking beyond usage in the user journey during installation, set-up, and edge cases (basically bugs). 
+This tool not only helped integrate AI into my studying, but also allowed me to explore more on the user-interface side of AI assistants integrated into medical education. Some things I've experimented with are pretty UIs, keeping apps low-size and low-complexity while also being useful, intelligent prompting, user-centered context integration for AI assistants, stress-testing AI assistants, and thinking beyond usage in the user journey during installation, set-up, and edge cases (basically bugs). 
 
 You can use this tool **for free** even with integration into OpenAI API, as they give free credits. Scroll to the bottom for instructions on how to get free credits for easy integration. 
 
