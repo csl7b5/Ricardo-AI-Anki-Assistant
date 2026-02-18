@@ -82,7 +82,7 @@ Some features I'm working on in the pipeline:
        -  Auto-identifying UWorld Questions and searching for cards with those QIDs or Topics
        -  Auto-generating or rebuilding filtered decks with incorrect, marked, or all cards in each completed 40-question block.
        -  Quick card-lookup if you want to find a concept fast from the question explanations. Might integrate a summarizer here.
-       -  I might just do all of this by creating an agent workflow, so I'll probably use Langchain just to make my life easier. If Anki can't support Langchain, this might be 10x harder .-.
+       -  I might just do all of this by creating an agent workflow, so I'll probably use Langchain just to make my life easier. If Anki can't support agents for some reason, this might be 10x harder .-.
 -   USMLE question generator with full formatting and answer choices based on cards and concepts.
 -   Fine-tuned SLMs for faster performance (Sporo proprietary).
 
